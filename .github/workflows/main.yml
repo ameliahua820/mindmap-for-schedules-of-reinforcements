@@ -2,7 +2,7 @@ mindmap
   %% 设置主题颜色 (可选)
   %% 可以在支持的编辑器中看到效果
   acc title 强化时制 (Schedules of Reinforcement) 详细思维导图
-  acc note: 核心概念：控制何时提供强化物，影响行为模式和持续性。
+  
 
   root((强化时制 Schedules of Reinforcement))
     ::icon(fa fa-graduation-cap)
