@@ -15,7 +15,7 @@ mindmap
     (两大基本分类)
       (连续强化 Continuous Reinforcement, CRF)
         ::icon(fa fa-redo-alt)
-        描述: 每次目标行为发生都立即强化
+        描述: 每次目标行为发生都立即强化 
         效果: 新行为建立最快
         缺点: 消退最快
         应用举例: 每次正确回答老师都表扬
