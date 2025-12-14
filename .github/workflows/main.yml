@@ -1,0 +1,58 @@
+mindmap
+  %% 设置主题颜色 (可选)
+  %% 可以在支持的编辑器中看到效果
+  acc title 强化时制 (Schedules of Reinforcement) 详细思维导图
+  acc note: 核心概念：控制何时提供强化物，影响行为模式和持续性。
+
+  root((强化时制 Schedules of Reinforcement))
+    ::icon(fa fa-graduation-cap)
+
+    (核心目标与影响)
+      决定强化的频率与时机
+      影响行为学习速度
+      影响行为的持久性 (抗消退能力)
+
+    (两大基本分类)
+      (连续强化 Continuous Reinforcement, CRF)
+        ::icon(fa fa-redo-alt)
+        描述: 每次目标行为发生都立即强化
+        效果: 新行为建立最快
+        缺点: 消退最快
+        应用举例: 每次正确回答老师都表扬
+
+      (间歇性强化 Intermittent Reinforcement)
+        ::icon(fa fa-hourglass-half)
+        描述: 行为只在部分时间或次数得到强化
+        效果: 行为建立慢, 但持久性强 (抗消退)
+        应用举例: 彩票中奖
+
+    (四大间歇性强化时制)
+      ::icon(fa fa-stream)
+
+      (1. 固定比率时制 Fixed-Ratio, FR)
+        ::icon(fa fa-calculator)
+        规则: 完成固定次数行为后强化 (e.g., FR-10 表示做10次强化1次)
+        特点: 高反应率
+        特点: 强化后有明显停顿
+        例子: 计件工资, 填写完固定页数的问卷
+
+      (2. 可变比率时制 Variable-Ratio, VR)
+        ::icon(fa fa-dice-six)
+        规则: 完成平均次数行为后强化 (次数随机变化 e.g., VR-10 平均每10次强化一次)
+        特点: **最高**且稳定的反应率
+        特点: **几乎无停顿** (最难消退)
+        例子: 赌博拉霸机, 电话推销的成功率
+
+      (3. 固定间隔时制 Fixed-Interval, FI)
+        ::icon(fa fa-clock)
+        规则: 固定时间后, 第一次发生的行为才被强化 (e.g., FI-1 Week 每周五)
+        特点: **扇贝形**反应曲线 (时间结束前行为爆发)
+        特点: 反应率在周期开始时最低
+        例子: 每月发薪水, 考前临时抱佛脚
+
+      (4. 可变间隔时制 Variable-Interval, VI)
+        ::icon(fa fa-stopwatch)
+        规则: 平均时间后, 第一次发生的行为才被强化 (时间随机变化)
+        特点: 中等且稳定的反应率
+        特点: 持续的监测行为
+        例子: 钓鱼 (不知何时上钩), 突击检查工作成果
